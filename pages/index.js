@@ -10,6 +10,15 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Dev Blog</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGFY7CX3TM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-NGFY7CX3TM');
+        </script>
       </Head>
 
       <div className='posts'>
