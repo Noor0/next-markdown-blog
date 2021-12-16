@@ -5,7 +5,7 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-NGFY7CX3TM" />
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-W9VWRHKQ74" />
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{__html: `
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-NGFY7CX3TM');
+        gtag('config', 'G-W9VWRHKQ74');
         `}}
       />
       <Header />
